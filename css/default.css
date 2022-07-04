@@ -80,6 +80,7 @@ video {
   border: 0;
   font-size: inherit;
   font-family: inherit;
+  color: inherit;
   vertical-align: baseline;
   box-sizing: border-box;
 }
@@ -243,6 +244,8 @@ textarea:focus {
 a {
   display: inline-block;
 }
+
+
 a:link {
   color: #000;
   text-decoration: none;
@@ -258,6 +261,15 @@ a:hover {
 a:active {
   color: #000;
   text-decoration: none;
+}
+
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
 }
 
 .clearfix:after {
