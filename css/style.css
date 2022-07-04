@@ -175,7 +175,7 @@ img{
 }
 .search-wrap::before{
   content: '';
-  display: block;
+  display: inline-block;
   border: 1px solid #000;
   width: 20px;
   height: 20px;
@@ -185,7 +185,7 @@ img{
 }
 .search-wrap input{
   background-color: #f0f0f4;
-  flex: 1;
+  width: 80%;
 }
 .search-wrap input::placeholder{
   color: #a7aab1;
