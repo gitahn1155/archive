@@ -176,7 +176,6 @@ img{
 .search-wrap::before{
   content: '';
   display: inline-block;
-  border: 1px solid #000;
   width: 20px;
   height: 20px;
   background: url(../images/search_ico.svg) center center no-repeat;
