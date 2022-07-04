@@ -16,7 +16,6 @@ body {
   height: 100%;
   word-spacing: -2px;
   letter-spacing: -0.45px;
-  border: 1px solid red;
 }
 img{
   max-width: 100%;
@@ -176,6 +175,8 @@ img{
 }
 .search-wrap::before{
   content: '';
+  display: block;
+  border: 1px solid red;
   width: 20px;
   height: 20px;
   background: url(../images/search_ico.svg) center center no-repeat;
