@@ -23,13 +23,9 @@ img {
 #wrap {
   height: calc(100vh - 60px);
   overflow-y: auto;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
-.main {
-  padding-bottom: 80px;
-  border: 1px solid red;
-}
 /*header*/
 .header {
   width: 100%;
