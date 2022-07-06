@@ -23,6 +23,7 @@ img {
 #wrap {
   height: calc(100vh - 60px);
   overflow-y: auto;
+  padding-bottom: 30px;
 }
 
 .main {
