@@ -421,6 +421,11 @@ h2.title {
   background-color: rgba(8, 18, 28, 0.3);
 }
 
+/*search-movi-list*/
+.search-movi-list div.photo {
+  width: 40% !important;
+}
+
 /*play-list*/
 .play-list div.photo {
   width: 40% !important;
